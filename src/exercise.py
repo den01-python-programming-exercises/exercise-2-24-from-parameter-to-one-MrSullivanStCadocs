@@ -8,7 +8,7 @@ def print_from_number_to_one(number):
   while (i <= number):
       print(i)
       i -= 1
-      if (i == -1):
+      if (i == 0):
         break
 
 if __name__ == '__main__':
