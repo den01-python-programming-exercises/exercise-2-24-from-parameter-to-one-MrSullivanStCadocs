@@ -4,7 +4,7 @@ def main():
     print_from_number_to_one(5)
 
 def print_from_number_to_one(number):
-  i = 5
+  i = number
   while (i <= number):
       print(i)
       i -= 1
